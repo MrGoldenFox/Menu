@@ -1,0 +1,281 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Smythe";
+  font-weight: 400;
+  line-height: 24px;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url("/img/headerbg.png");
+  background-size: cover;
+  color: white;
+  height: 167px;
+  width: 100vw;
+}
+
+.headContainer {
+  padding: 3rem 2rem;
+}
+
+.orderList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blockInOrderList {
+  display: flex;
+  gap: 10px;
+}
+
+main {
+  width: 90vw;
+  margin: 0px auto;
+}
+
+section {
+  display: flex;
+  border-bottom: 1px solid #d2d2d2;
+  width: 100%;
+}
+
+form {
+  position: fixed;
+  background-color: white;
+  width: 80vw;
+  height: 500px;
+  top: 10vh;
+  left: 10vw;
+  box-shadow: #8b8b8b 0px 0px 20px 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+form input {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  height: 50px;
+  padding-left: 10px;
+}
+
+form input::placeholder {
+  font-family: "Verdana";
+  color: #757575;
+  font-weight: 400;
+  line-height: 31.12px;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form h2 {
+  font-family: "Verdana";
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 31.12px;
+  padding-block: 1.5rem;
+}
+
+ul {
+  display: none;
+}
+
+.btn {
+  margin-top: 40px;
+  margin-left: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #dedede;
+  font-size: 1rem;
+  background-color: white;
+}
+
+.btn:hover {
+  background-color: gainsboro;
+}
+
+.btn:active {
+  background-color: lightslategray;
+}
+
+.totalPrice {
+  display: flex;
+  border-top: 2px solid #393333;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.totalPrice p {
+  margin-top: 0px;
+}
+
+.invisiablecontainer {
+  background-color: transparent;
+  position: fixed;
+  height: 100%;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+.containerApprication {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 120px;
+  margin: 0px auto;
+  background-color: #ecfdf5;
+  margin-bottom: 30px;
+}
+
+.containerApprication h2 {
+  color: #065f46;
+  font-family: "Smythe";
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 16.8px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.4em;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-size: 28px;
+  margin: 0px 0px 20px 0px;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 13.8px;
+}
+
+#menuTable {
+  margin: 30px 0px;
+}
+
+#proposition {
+  font-size: 1rem;
+  color: #8b8b8b;
+  letter-spacing: 1.1px;
+  margin-top: 10px;
+}
+
+#order {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 16.8px;
+}
+
+#price {
+  font-size: 1.2rem;
+  line-height: 24px;
+  margin-top: 10px;
+  letter-spacing: 1.1px;
+}
+
+#emoji {
+  margin-top: 50px;
+  font-size: 5rem;
+}
+
+#priceItem {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#containerOrders {
+  border-bottom: 1px solid #393333;
+}
+
+#completeOrder {
+  background-color: #16db99;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  width: 90vw;
+  padding: 20px 10px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Verdana";
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 24px;
+  color: white;
+}
+
+#completeOrder:hover {
+  background-color: hsl(160, 82%, 30%);
+}
+
+#completeOrder:active {
+  background-color: hsl(160, 82%, 40%);
+}
+
+#pay {
+  font-family: "Verdana";
+  font-weight: 700;
+  font-size: 1.2rem;
+  width: calc(80% + 10px);
+  height: 60px;
+  background-color: #16db99;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+#pay:hover {
+  background-color: hsl(160, 82%, 30%);
+}
+
+#pay:active {
+  background-color: hsl(160, 82%, 40%);
+}
+
+#remBtn {
+  background-color: transparent;
+  border: none;
+  color: #bbbbbb;
+  height: 2rem;
+  font-weight: bold;
+  letter-spacing: 1.05px;
+}
+
+#remBtn:hover {
+  background-color: #16db99;
+  color: white;
+  border-radius: 10px;
+}
+
+#remBtn:active {
+  background-color: hsl(160, 82%, 30%);
+}
+
+@media (max-width: 600px) {
+  #appricationText {
+    font-size: 1.4rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+}
+
+@media (min-width: 1000px) {
+  #completeOrder,
+  #pay {
+    max-width: 400px;
+  }
+}
