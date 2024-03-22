@@ -293,6 +293,13 @@ p {
   }
 }
 
+@media (min-width: 800px) {
+  form {
+    width: 50vw;
+    left: 25%;
+  }
+}
+
 @media (min-width: 1000px) {
   #completeOrder,
   #pay {
