@@ -1,11 +1,15 @@
 import { menuArray } from "./data.js";
 
+// DECLARATE ITEMS IN DOCUMENT
+
 const ulEl = document.getElementById("ul-el");
 const list = document.getElementById("menuTable");
 const orderList = document.getElementById("orderList");
 const form = document.getElementById("form");
 const name = document.getElementById("name");
 
+// Declarate order list
+// Declarate order list
 // Declarate order list
 
 class Orderlist {
@@ -21,11 +25,15 @@ class Orderlist {
   }
 }
 
-// initialization order list by user
+// Initialization order list by user
+// Initialization order list by user
+// Initialization order list by user
 
 const orderRightNow = new Orderlist();
 
-// give listener by all commands when click a button's
+// Give listener by all commands when click a button's
+// Give listener by all commands when click a button's
+// Give listener by all commands when click a button's
 
 document.addEventListener("click", function (e) {
   if (e.target.dataset.add) {
@@ -54,6 +62,8 @@ document.addEventListener("click", function (e) {
   }
 });
 
+// Rendering all page
+// Rendering all page
 // Rendering all page
 
 function renderOrder() {
@@ -90,6 +100,10 @@ function renderOrder() {
   }
 }
 
+// Chnage orderlist
+// Chnage orderlist
+// Chnage orderlist
+
 function addOrder(target) {
   let targetObj = menuArray.filter((offer) => offer.name === target)[0];
 
@@ -107,6 +121,8 @@ function deleteOrder(index) {
 }
 
 // Render apprication when user is make transaction
+// Render apprication when user is make transaction
+// Render apprication when user is make transaction
 
 function renderAppreciation() {
   orderList.innerHTML = `
@@ -116,6 +132,8 @@ function renderAppreciation() {
                      `;
 }
 
+// Rendering Menu(What we use for order)
+// Rendering Menu(What we use for order)
 // Rendering Menu(What we use for order)
 
 function renderMenu(menu) {
